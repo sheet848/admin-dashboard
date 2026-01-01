@@ -66,8 +66,8 @@ A fully-featured, professional admin dashboard built with React and Material-UI,
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/react-admin-dashboard.git
-cd react-admin-dashboard
+git clone https://github.com/yourusername/admin-dashboard.git
+cd admin-dashboard
 ```
 
 2. **Install dependencies**
@@ -133,27 +133,16 @@ react-admin-dashboard/
 │   │   │   ├── Sidebar.jsx
 │   │   │   └── Topbar.jsx
 │   │   ├── dashboard/
-│   │   │   └── index.jsx
 │   │   ├── team/
-│   │   │   └── index.jsx
 │   │   ├── contacts/
-│   │   │   └── index.jsx
 │   │   ├── invoices/
-│   │   │   └── index.jsx
 │   │   ├── form/
-│   │   │   └── index.jsx
 │   │   ├── calendar/
-│   │   │   └── index.jsx
 │   │   ├── faq/
-│   │   │   └── index.jsx
 │   │   ├── bar/
-│   │   │   └── index.jsx
 │   │   ├── pie/
-│   │   │   └── index.jsx
 │   │   ├── line/
-│   │   │   └── index.jsx
 │   │   └── geography/
-│   │       └── index.jsx
 │   ├── data/
 │   │   ├── mockData.js
 │   │   └── mockGeoFeatures.js
@@ -172,54 +161,6 @@ The application uses a custom theme configuration with support for both light an
 - **Context API** - React Context for global theme state
 - **Material-UI Theme Provider** - Integrated with MUI's theming system
 - **Custom Scrollbar** - Styled scrollbar matching the theme
-
-### Color Scheme
-
-- **Primary** - Dark blue (#141b2d in dark mode)
-- **Secondary** - Green accent (#4cceac)
-- **Additional Accents** - Red and blue accents for various UI elements
-
-## 🔧 Key Features Explained
-
-### Data Grid Tables
-
-Three different implementations showcasing:
-
-- Custom cell rendering
-- Column customization
-- Checkbox selection
-- Export functionality
-- Filtering and sorting
-- Custom styling
-
-### Form Validation
-
-Formik and Yup integration featuring:
-
-- Real-time validation
-- Custom error messages
-- Email format validation
-- Phone number regex validation
-- Touch-based error display
-
-### Calendar System
-
-FullCalendar implementation with:
-
-- Multiple view modes (Month, Week, Day, List)
-- Event creation via click
-- Drag-and-drop event management
-- Event deletion
-- Custom styling
-
-### Charts
-
-Nivo charts with:
-
-- Custom themes matching the app design
-- Responsive layouts
-- Interactive tooltips
-- Dashboard and full-page versions
 
 ## 🚀 Usage
 
@@ -273,7 +214,7 @@ Modify files in `src/data/` to change the sample data displayed in tables and ch
 
 ## 🐛 Known Issues
 
-- The application is optimized for desktop viewing
+- The application is optimized for **desktop viewing**
 - Mobile responsiveness could be improved
 - Some features (search, notifications, settings) are UI-only without backend integration
 
@@ -288,16 +229,12 @@ Modify files in `src/data/` to change the sample data displayed in tables and ch
 - [ ] Advanced filtering options
 - [ ] User profile management
 
-## 📄 License
-
-This project is open source and available under the [MIT License](https://claude.ai/chat/LICENSE).
-
 ## 🙏 Acknowledgments
 
 - Material-UI for the component library
 - Nivo for beautiful chart components
 - FullCalendar for calendar functionality
-- EdRoh for the tutorial inspiration
+- [EdRoh](https://github.com/ed-roh) for the tutorial inspiration
 
 ---
 
